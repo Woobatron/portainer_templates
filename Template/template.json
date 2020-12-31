@@ -43,11 +43,11 @@
 	        "type": 1,
 	        "volumes": [
 		        {
-		          "bind": "/portainer/Files/AppData/Adguard/Workdir",
+		          "bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Adguard/Workdir",
 		          "container": "/opt/adguardhome/work"
 		        },
 		        {
-		          "bind": "/portainer/Files/AppData/Adguard/Conf",
+		          "bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Adguard/Conf",
 		          "container": "/opt/adguardhome/conf"
 		        }
         	]
@@ -91,11 +91,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Music",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/music",
 					"container": "/music"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Airsonic/Playlists",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Airsonic/Playlists",
 					"container": "/playlists"
 				},
 				{
@@ -103,11 +103,11 @@
 					"container": "/podcasts"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Airsonic/Media",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Airsonic/Media",
 					"container": "/media"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Airsonic/",
 					"container": "/config"
 				}
 			]
@@ -138,7 +138,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Authelia",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Authelia",
 					"container": "/etc/authelia/"
 				}
 			]
@@ -162,7 +162,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/EmbyStat",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/EmbyStat",
 					"container": "/config"
 				}
 			]
@@ -186,7 +186,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Snibox",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Snibox",
 					"container": "/app/db/database"
 				}
 			]
@@ -217,7 +217,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Authelia",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Authelia",
 					"container": "/etc/authelia/"
 				}
 			]
@@ -256,15 +256,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bazarr",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Bazarr",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/tv"
 				},
 				{
-					"bind": "/portainer/Movies",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/movies",
 					"container": "/movies"
 				}
 			]
@@ -298,15 +298,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Beets",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Beets",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Music",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/music",
 					"container": "/music"
 				}
 			]
@@ -330,7 +330,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bitwarden-rs",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Bitwarden-rs",
 					"container": "/config"
 				}
 			]
@@ -370,15 +370,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Books",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/files/books",
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/Podcasts",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/files/podcasts",
 					"container": "/podcast"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Booksonic",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Booksonic",
 					"container": "/config"
 				}
 			]
@@ -456,11 +456,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Books",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/files/books",
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Cops",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Cops",
 					"container": "/config"
 				}
 			]
@@ -495,11 +495,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Books",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/files/books",
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Calibre-web",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Calibre-web",
 					"container": "/config"
 				}
 			]
@@ -582,7 +582,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Chowdown",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Chowdown",
 					"container": "/config"
 				}
 			]
@@ -634,7 +634,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Code-Server",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Code-Server",
 					"container": "/config"
 				}
 			]
@@ -668,7 +668,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Codiad",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Codiad",
 					"container": "/config"
 				}
 			]
@@ -703,15 +703,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Couchpotato",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Couchpotato",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Movies",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/movies",
 					"container": "/movies"
 				}
 			]
@@ -742,11 +742,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Daapd",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Daapd",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Music",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/music",
 					"container": "/music"
 				}
 			]
@@ -769,7 +769,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Dashmachine",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Dashmachine",
 					"container": "/dashmachine/dashmachine/user_data"
 				}
 			]
@@ -805,11 +805,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Davos",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Davos",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -833,11 +833,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/DeeMix",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/DeeMix",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -873,11 +873,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Deluge",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Deluge",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -914,7 +914,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Domoticz",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Domoticz",
 					"container": "/config"
 				}
 			]
@@ -988,7 +988,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Duplicati",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Duplicati",
 					"container": "/config"
 				},
 				{
@@ -1038,15 +1038,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Emby",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Emby",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/data/tvshows"
 				},
 				{
-					"bind": "/portainer/Movies",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/movies",
 					"container": "/data/movies"
 				}
 			]
@@ -1070,11 +1070,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/FileBrowser",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/FileBrowser",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Config",
 					"container": "/myfiles"
 				}
 			]
@@ -1108,7 +1108,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/freshrss",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/freshrss",
 					"container": "/config"
 				}
 			]
@@ -1141,15 +1141,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Gazee",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Gazee",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Comics",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/files/comics",
 					"container": "/comics"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Gazee",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Gazee",
 					"container": "/mylar"
 				}
 			]
@@ -1173,7 +1173,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Guacamole",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Guacamole",
 					"container": "/config"
 				}
 			]
@@ -1213,7 +1213,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Grocy",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Grocy",
 					"container": "/config"
 				}
 			]
@@ -1249,7 +1249,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/HTPCmanager",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/HTPCmanager",
 					"container": "/config"
 				}
 			]
@@ -1283,15 +1283,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Headphones",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Headphones",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/Downloads"
 				},
 				{
-					"bind": "/portainer/Music",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/music",
 					"container": "/music"
 				}
 			]
@@ -1328,7 +1328,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Heimdall",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Heimdall",
 					"container": "/config"
 				}
 			]
@@ -1352,11 +1352,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Homer/assets",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Homer/assets",
 					"container": "/www/assets"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Homer",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Homer",
 					"container": "/www/config.yml"
 				}
 			]
@@ -1379,7 +1379,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/huginn",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/huginn",
 					"container": "/var/lib/mysql"
 				}
 			]
@@ -1461,11 +1461,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Jackett",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Jackett",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -1506,15 +1506,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Jelllyfin",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Jelllyfin",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/data/tvshows"
 				},
 				{
-					"bind": "/portainer/Movies",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/movies",
 					"container": "/data/movies"
 				}
 			]
@@ -1549,7 +1549,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Kodi",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Kodi",
 					"container": "/config"
 				}
 			]
@@ -1659,7 +1659,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/LetsEncrypt",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/LetsEncrypt",
 					"container": "/config"
 				}
 			]
@@ -1682,7 +1682,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/LibreSpeed",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/LibreSpeed",
 					"container": "/config"
 				}
 			]
@@ -1719,7 +1719,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Lychee",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Lychee",
 					"container": "/config"
 				},
 				{
@@ -1763,7 +1763,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mariadb",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Mariadb",
 					"container": "/config"
 				}
 			]
@@ -1832,15 +1832,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Medusa",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Medusa",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/tv"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -1928,11 +1928,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mstream",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Mstream",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/music"
 				}
 			]
@@ -2026,11 +2026,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/MusicBrainz",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/MusicBrainz",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/MusicBrainz",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/MusicBrainz",
 					"container": "/data"
 				}
 			]
@@ -2067,7 +2067,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Muximux",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Muximux",
 					"container": "/config"
 				}
 			]
@@ -2102,15 +2102,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mylar",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Mylar",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Comics",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/files/comics",
 					"container": "/comics"
 				}
 			]
@@ -2144,11 +2144,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nzbget",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Nzbget",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -2184,11 +2184,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nzbhydra2",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Nzbhydra2",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -2272,7 +2272,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nginx",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Nginx",
 					"container": "/config"
 				}
 			]
@@ -2297,7 +2297,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nginx-Proxy",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Nginx-Proxy",
 					"container": "/config"
 				}
 			]
@@ -2332,7 +2332,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OScam",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/OScam",
 					"container": "/config"
 				}
 			]
@@ -2369,7 +2369,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Ombi",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Ombi",
 					"container": "/config"
 				}
 			]
@@ -2410,7 +2410,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/OpenVPN-AS",
 					"container": "/config"
 				}
 			]
@@ -2445,7 +2445,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Organizr",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Organizr",
 					"container": "/config"
 				}
 			]
@@ -2483,11 +2483,11 @@
 					"container": "/Pictures"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Photoshow/Thumbs",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Photoshow/Thumbs",
 					"container": "/Thumbs"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PhotoShow",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/PhotoShow",
 					"container": "/config"
 				}
 			]
@@ -2515,11 +2515,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/PiHole",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/PiHole/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -2553,7 +2553,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiWigo",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/PiWigo",
 					"container": "/config"
 				}
 			]
@@ -2592,15 +2592,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Plex",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Plex",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/tv"
 				},
 				{
-					"bind": "/portainer/Movies",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/movies",
 					"container": "/movies"
 				}
 			]
@@ -2642,7 +2642,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PlexRequests",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/PlexRequests",
 					"container": "/config"
 				}
 			]
@@ -2679,11 +2679,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/ProjectSend",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/ProjectSend",
 					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/ProjectSend",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/ProjectSend",
 					"container": "/config"
 				}
 			]
@@ -2710,7 +2710,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/ProtonMail-Bridge",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/ProtonMail-Bridge",
 					"container": "/root"
 				}
 			]
@@ -2745,11 +2745,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Pydio",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Pydio",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Pydio",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Pydio",
 					"container": "/data"
 				}
 			]
@@ -2783,7 +2783,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Quassel-core",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Quassel-core",
 					"container": "/config"
 				}
 			]
@@ -2818,15 +2818,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Radarr",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Radarr",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Movies",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/movies",
 					"container": "/movies"
 				}
 			]
@@ -2849,7 +2849,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ReactiveResume",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/ReactiveResume",
 					"container": "/usr/src/app"
 				}
 			]
@@ -2883,14 +2883,14 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Resilio-Sync",
 					"container": "/config"
 				},
 				{
 					"container": "/sync"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -2925,15 +2925,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Sabnzbd",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Sabnzbd",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Downloads/incomplete",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads/incomplete",
 					"container": "/incomplete-downloads"
 				}
 			]
@@ -2956,7 +2956,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Shiori",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Shiori",
 					"container": "/srv/shiori"
 				}
 			]
@@ -2991,15 +2991,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/SickChill",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/SickChill",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/tv"
 				}
 			]
@@ -3034,15 +3034,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/SickGear",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/SickGear",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/tv"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -3076,11 +3076,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Smokeping",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Smokeping",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Smokeping",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Smokeping",
 					"container": "/data"
 				}
 			]
@@ -3115,7 +3115,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Sonarr",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Sonarr",
 					"container": "/config"
 				},
 				{
@@ -3123,11 +3123,11 @@
 					"container": "/dev/rtc"
 				},
 				{
-					"bind": "/portainer/TV",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/tv",
 					"container": "/tv"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -3166,7 +3166,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Syncthing",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Syncthing",
 					"container": "/config"
 				},
 				{
@@ -3208,7 +3208,7 @@
 					"container": "/logs"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Tautulli",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Tautulli",
 					"container": "/config"
 				}
 			]
@@ -3242,7 +3242,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TheLounge",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/TheLounge",
 					"container": "/config"
 				}
 			]
@@ -3265,7 +3265,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/TiddlyWiki",
 					"container": "/var/lib/tiddlywiki"
 				}
 			]
@@ -3299,7 +3299,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/tt-rss",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/tt-rss",
 					"container": "/config"
 				}
 			]
@@ -3334,7 +3334,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Transmission",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Transmission",
 					"container": "/config"
 				},
 				{
@@ -3399,7 +3399,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/data"
 				},
 				{
@@ -3439,7 +3439,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TVHeadend",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/TVHeadend",
 					"container": "/config"
 				},
 				{
@@ -3530,7 +3530,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Unifi",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Unifi",
 					"container": "/config"
 				}
 			]
@@ -3583,11 +3583,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/WebGrabPlus",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/WebGrabPlus",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/WebGrabPlus",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/WebGrabPlus",
 					"container": "/data"
 				}
 			]
@@ -3610,7 +3610,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Whoogle",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Whoogle",
 					"container": "/config"
 				}
 			]
@@ -3633,11 +3633,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Wikijs",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Wikijs",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Wikijs/data",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Wikijs/data",
 					"container": "/data"
 				}
 			]
@@ -3660,23 +3660,23 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/YTDLM",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/YTDLM",
 					"container": "/app/appdata"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Video",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Youtube/Video",
 					"container": "/app/video"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Subscriptions",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Youtube/Subscriptions",
 					"container": "/app/subscriptions"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Users",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Youtube/Users",
 					"container": "/app/users"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Audio",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Youtube/Audio",
 					"container": "/app/audio"
 				}
 			]
@@ -3710,7 +3710,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ZNC",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/ZNC",
 					"container": "/config"
 				}
 			]
@@ -3745,15 +3745,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Lidarr",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Lidarr",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Music",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/music",
 					"container": "/music"
 				}
 			]
@@ -3789,11 +3789,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/qBittorrent",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/qBittorrent",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -3856,11 +3856,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/ruTorrent",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Downloads",
+					"bind": "/srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/downloads",
 					"container": "/downloads"
 				}
 			]
