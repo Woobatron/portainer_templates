@@ -9,7 +9,7 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - /portainer/Files/AppData/Config/Nextcloud/Config:/config
+      - /srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Nextcloud/Config:/config
     ports:
       - ${PORT}:443
     restart: unless-stopped
@@ -27,5 +27,5 @@ services:
       - MYSQL_USER=nextcloud
       - MYSQL_PASSWORD=${DATABASE_PASSWORD}
     volumes:
-      - /portainer/AppData/Config/Nextcloud/DB:/config
+      - /srv/dev-disk-by-uuid-8e8325f1-086c-464d-98e5-c92a714f9bca/appdata/Nextcloud/DB:/config
     restart: unless-stopped
